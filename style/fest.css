@@ -107,3 +107,11 @@
         width: 48%;
     }
 }
+
+.topIMG2{
+    position: absolute;
+    width: 210px;
+    top: 32px;
+    right: 77px;
+  }
+  

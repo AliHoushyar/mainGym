@@ -1,0 +1,48 @@
+.topIMG2{
+  position: absolute;
+  width: 210px;
+  top: 32px;
+  right: 77px;
+}
+
+.inviteTop{
+  margin-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.Invitetitle{
+  font-size: 16px;
+}
+
+.mainPhoto{
+  width: 220px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code{
+  width: 60%;
+  height: 40px;
+  background-color: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #67495a;
+}
+
+.sendBTN{
+  margin-top: 15px;
+  width: 85%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ae0a09;
+  color: white;
+}
