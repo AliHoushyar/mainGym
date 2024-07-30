@@ -1,0 +1,112 @@
+.pointTop{
+    width: 90%;
+    height: 120px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pointSpans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pointSpansTitle{
+    font-size: 26px;
+}
+
+.pointSpansMuch{
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.pointImg{
+    animation: floating 3s ease-in-out infinite
+}
+
+.pointImg img{
+    width: 100px;
+}
+
+.gardeshPoint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.Pointcard{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.Pointside{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    width: 140px;
+    align-items: center;
+}
+
+.Pointcard{
+    border: 1px solid salmon;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.PointCenter{
+    display: flex;
+    flex-direction: column;
+}
+
+.PointCenter img{
+    width: 70px;
+}
+
+.PointCenter span{
+    font-size: 12px;
+    width: 90px;
+    font-weight: bold;
+}
+
+.PtoM{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: none;
+    background-color: rgb(215, 31, 31);
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.PointLink{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.PtoM img{
+    width: 50px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
