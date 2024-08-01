@@ -206,7 +206,7 @@ body{
     position: absolute;
     width: 350px;
     height: 100%;
-    right: 40px;
+    right: 80px;
     z-index: 5;
     top: 0px;
     background-image: url(../img/sideBg.jpg);
