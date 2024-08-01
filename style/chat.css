@@ -1,0 +1,96 @@
+.chatBox{
+    width: 90%;
+    margin: 0 auto;
+    height: 325px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-image: url(../img/chatPattern.png);
+    border: 1px solid red;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chatBox::-webkit-scrollbar{
+    width: 7px;
+    border-radius: 20px;
+}
+
+.chatBox::-webkit-scrollbar-track{
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.chatBox::-webkit-scrollbar-thumb{
+    background-color: #ff3c54;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.mychat{
+    width: 60%;
+    padding: 10px 15px;
+    background-color: #ff3c54;
+    color: white;
+    border-radius: 15px 15px 0px 15px;
+    margin-top: 7px;
+    margin-left: 125px;
+    animation: append 250ms ease;
+}
+
+.adminiChat{
+    width: 60%;
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 0px;
+    background-color: #dfdfdf;
+    margin-right: 125px;
+    margin-top: 7px;
+    animation: append 250ms ease;
+}
+
+.sender{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sender input{
+    width: 90%;
+    min-height: 40px;
+    border: 1px solid #ff3c54;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    direction: rtl;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+
+.sender button{
+    width: 10%;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #ff3c54;
+    border-left: none;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.sendIMG{
+    width: 100%;
+}
+
+@keyframes append {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }

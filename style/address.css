@@ -1,0 +1,58 @@
+.addSingleCard{
+    display: flex;
+    align-items: center;
+}
+
+.addCards{
+    margin-top: 35px;
+    position: relative;
+}
+
+.Pin{
+    width: 50px;
+}
+
+.Pintexts{
+    font-size: 12px;
+}
+
+.ostan{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 7px;
+}
+
+.pinBTN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.pinBTN button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.addText{
+    text-wrap: wrap;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.seprator{
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    background: rgb(215,64,64);
+background: radial-gradient(circle, rgba(215,64,64,1) 0%, rgba(255,255,255,1) 100%);
+    right: 0;
+    bottom: -20px;
+}

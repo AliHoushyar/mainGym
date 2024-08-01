@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/fest.css" />
+    <link rel="stylesheet" href="./style/Wallet.css" />
+    <link rel="stylesheet" href="./style/points.css" />
+    <link rel="stylesheet" href="./style/address.css" />
+    <link rel="stylesheet" href="./style/test.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="siteTop">
+      <img class="BGI" src="./img/topBG.jpg" alt="gym" />
+      <img class="BGI gg" src="./img/topBG2.jpg" alt="gym" />
+      <div class="menu">
+        <button class="menuBtn">
+          <i class="bx bx-menu-alt-right"></i>
+        </button>
+        <span class="menuTitle">شارژ حساب</span>
+        <button class="helpBtn">
+          <i class="bx bxs-home"></i>
+        </button>
+      </div>
+    </div>
+    <div class="better"></div>
+    <img class="topIMG3" src="./img/money.png" alt="" />
+    <div class="sideBar">
+      <div class="Sidewallet">
+        <span class="Sidecash">78,500,000</span>
+        <span class="Sideunit">ریال</span>
+      </div>
+      <div class="SidetopBtn">
+        <button class="addMoney"><i class="bx bx-plus"></i></button>
+        <button class="points"><i class="bx bx-star"></i></button>
+        <button class="receipt"><i class="bx bx-receipt"></i></button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="radio-inputs">
+        <label class="radio">
+          <input id="r1" type="radio" name="radio" />
+          <span class="name">شارژ حساب</span>
+        </label>
+        <label class="radio">
+          <input id="r2" type="radio" name="radio" checked />
+          <span class="name">تبدیل امتیاز</span>
+        </label>
+      </div>
+      <div class="parent">
+        <div class="Parenttext2">
+          <span class="pt2"
+            >مقدار دلخواه از امتیاز های خود را به پول تبدیل کنید و راحت تر
+            تراکنش کنید.</span
+          ><img class="swapIMG" src="./img/swap.png" alt="" />
+          <div class="swapINP">
+            <div class="PointINP">
+              <div class="PointINPText">
+                <img src="./img/star.png" alt="" /><span>امتیاز</span>
+              </div>
+              <input
+                type="text"
+                name="PointAmount"
+                id="PointAmount"
+                placeholder="مقدار امتیاز..."
+                autocomplete="off"
+              />
+            </div>
+            <div class="PointINP">
+              <div class="PointINPText">
+                <img src="./img/moneyicon.png" alt="" /><span>پول</span>
+              </div>
+              <div class="MoneyAmount">
+                <span class="MoneyAmountText">مقدار پول...</span>
+              </div>
+            </div>
+          </div>
+          <button class="pay2">
+            <img src="./img/swapIcon.png" alt="" /><span>تبدیل</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/swaper.js"></script>
+  </body>
+</html>

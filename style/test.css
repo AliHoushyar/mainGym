@@ -1,0 +1,168 @@
+.radio-inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  padding: 0.25rem;
+  width: 300px;
+  font-size: 14px;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: #e01717;
+  color: white;
+  font-weight: 600;
+}
+
+.Parenttext{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.MINP{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    height: 40px;
+    background-color: #e6e6e6;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.withdraw{
+    width: 300px;
+}
+
+.pay{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    gap: 10px;
+    color: white;
+    background-color: #e01717;
+}
+
+.pay2{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    gap: 10px;
+    color: white;
+    background-color: #e01717;
+}
+
+.Parenttext2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.swapIMG{
+    margin-top: 10px;
+    width: 270px;
+}
+
+.pt2{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.swapINP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.PointINP{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.PointINPText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+    gap: 7px;
+    background-color: #e6e6e6;
+    height: 30px;
+    width: 30%;
+}
+
+.PointINPText img{
+    width: 20px;
+}
+
+.PointINP input{
+    width: 70%;
+    border: none;
+    background-color: #e6e6e6;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pay2 img{
+    width: 20px;
+}
+
+.MoneyAmount{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.MoneyAmountText{
+    font-size: 14px;
+    color: #75778b;
+}
