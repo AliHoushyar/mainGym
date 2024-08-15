@@ -30,7 +30,7 @@
 }
 
 .mychat{
-    width: 60%;
+    min-width: 60%;
     padding: 10px 15px;
     background-color: #ff3c54;
     color: white;
@@ -41,7 +41,7 @@
 }
 
 .adminiChat{
-    width: 60%;
+    min-width: 60%;
     padding: 10px 15px;
     border-radius: 15px 15px 15px 0px;
     background-color: #dfdfdf;
@@ -93,4 +93,35 @@
     100% {
         transform: scale(1);
     }
-  }
+}
+
+@media screen and (min-width: 767px){
+    .chatBox{
+        background-color: #ffffff;
+        background-image: none;
+    }
+    .adminiChat{
+        margin-right: 290px;
+    }
+    .mychat{
+        margin-left: 290px;
+    }
+    .sender button{
+        width: 5%;
+    }
+    .topIMG3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1285px){
+    .sideBar{
+        right: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .desktopContainer{
+        left: 5px;
+    }
+}

@@ -29,9 +29,21 @@
       </div>
       <span class="mojood">موجودی</span>
       <div class="topBtn">
-        <button class="addMoney"><i class="bx bx-plus"></i></button>
-        <button class="points"><i class="bx bx-star"></i></button>
-        <button class="receipt"><i class="bx bx-receipt"></i></button>
+        <button class="addMoney">
+          <a style="text-decoration: none" href="./testing.html"
+            ><i class="bx bx-plus"></i
+          ></a>
+        </button>
+        <button class="points">
+          <a style="text-decoration: none" href="./points.html"
+            ><i class="bx bx-star"></i
+          ></a>
+        </button>
+        <button class="receipt">
+          <a style="text-decoration: none" href="./wallet.html"
+            ><i class="bx bx-receipt"></i
+          ></a>
+        </button>
       </div>
       <div class="topBtnSpan">
         <span>شارژ حساب</span>
@@ -66,20 +78,35 @@
       </div>
       <div class="fetures">
         <button class="festivalB">
-          <i class="bx bxs-diamond"></i>
-          <span>جشنواره ها</span>
+          <a
+            style="display: flex; flex-direction: column; text-decoration: none"
+            href="./fest.html"
+          >
+            <i class="bx bxs-diamond"></i>
+            <span>جشنواره ها</span>
+          </a>
         </button>
         <button class="walletB">
-          <i class="bx bxs-wallet-alt"></i>
-          <span>کیف پول</span>
+          <a
+            style="display: flex; flex-direction: column; text-decoration: none"
+            href="./wallet.html"
+          >
+            <i class="bx bxs-wallet-alt"></i>
+            <span>کیف پول</span>
+          </a>
         </button>
         <button class="userB">
-          <i class="bx bxs-user"></i>
-          <span>پروفایل</span>
+          <a
+            style="display: flex; flex-direction: column; text-decoration: none"
+            href="./profile.html"
+          >
+            <i class="bx bxs-user"></i>
+            <span>پروفایل</span>
+          </a>
         </button>
       </div>
       <div class="deskFeutures">
-        <button class="cssbuttons-io-button">
+        <button id="festBTN" class="cssbuttons-io-button">
           جشنواره ها
           <div class="icon">
             <svg
@@ -103,7 +130,7 @@
             </svg>
           </div>
         </button>
-        <button class="cssbuttons-io-button">
+        <button id="walletBTN" class="cssbuttons-io-button">
           کیف پول
           <div class="icon">
             <svg
@@ -122,7 +149,7 @@
             </svg>
           </div>
         </button>
-        <button class="cssbuttons-io-button">
+        <button id="profBTN" class="cssbuttons-io-button">
           پروفایل
           <div class="icon">
             <svg
@@ -144,4 +171,15 @@
       </div>
     </div>
   </body>
+  <script type="text/javascript">
+    document.getElementById("festBTN").onclick = function () {
+      location.href = "./fest.html";
+    };
+    document.getElementById("walletBTN").onclick = function () {
+      location.href = "./wallet.html";
+    };
+    document.getElementById("profBTN").onclick = function () {
+      location.href = "./profile.html";
+    };
+  </script>
 </html>

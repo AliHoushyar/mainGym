@@ -38,6 +38,15 @@ body{
     justify-content: space-between;
 }
 
+.menuSingle{
+  width: 100%;
+    background-color: transparent;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menuBtn{
     width: 30px;
     height: 30px;
@@ -319,7 +328,7 @@ body{
     width: 86.5%;
   }
   body{
-    background-image: url(../img/pat.png);
+    /* background-image: url(../img/pat.png); */
     background-size: auto;
     background-repeat: repeat;
   }

@@ -323,7 +323,7 @@ body{
         font-size: 24px;
     }
     body{
-        background-image: url(../img/pat.png);
+        /* background-image: url(../img/pat.png); */
         background-size: auto;
         background-repeat: repeat;
     }

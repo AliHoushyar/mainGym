@@ -1,0 +1,177 @@
+.nameLastName{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    width: 100%;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.desknameLastName{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    width: 100%;
+    margin-top: 25px;
+    gap: 10px;
+    border: 1px dashed #a00002;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.nameImage{
+    width: 100px;
+}
+
+.nameTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nameTitle :nth-child(1){
+    font-weight: bold;
+}
+
+.walletPanel{
+    width: 90%;
+    height: 100px;
+    background-image: url("../img/walletCard.png");
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid #a00002;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.pointPanel{
+    width: 90%;
+    height: 100px;
+    background-image: url("../img/starCard.png");
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid #a00002;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.btnLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.panelButton{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.panelButton i{
+    font-size: 12px;
+}
+
+.panelTexts{
+    color: white;
+    margin-right: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.txt{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency{
+    font-size: 10px;
+}
+
+.desktopContainer{
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 40px;
+    margin-top: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deskWalletCard{
+    width: 400px;
+    height: 229px;
+    background-image: url(../img/Walletcard2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.deskPointCard{
+    width: 400px;
+    height: 229px;
+    background-image: url(../img/Pointcard2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.deskCardTexts{
+    color: #990003;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    font-size: 24px;
+}
+
+.deskcards{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 100px;
+}
+
+@media screen and (min-width: 767px){
+    .container{
+        display: none;
+    }
+    .desktopContainer{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1285px){
+    .sideBar{
+        right: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .desktopContainer{
+        left: 5px;
+    }
+}

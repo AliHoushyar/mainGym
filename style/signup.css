@@ -1,0 +1,95 @@
+.inputContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+  }
+  
+  #inputField {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 12px 15px;
+    color: black;
+    font-weight: 500;
+    outline: none;
+    caret-color: rgb(255, 78, 78);
+    transition-duration: .3s;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .userIcon {
+    position: absolute;
+    fill: rgb(255, 78, 78);
+    width: 12px;
+    top: -23px;
+    right: -15px;
+    opacity: 0;
+    transition: .2s linear;
+  }
+
+  .userIcon2 {
+    position: absolute;
+    color: rgb(255, 78, 78);
+    width: 16px;
+    top: -23px;
+    right: -15px;
+    opacity: 0;
+    transition: .2s linear;
+  }
+  
+  .usernameLabel {
+    position: absolute;
+    top: -25px;
+    right: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    transition: .2s linear;
+    opacity: 0;
+  }
+  
+  #inputField:focus ~ .usernameLabel,
+  #inputField:valid ~ .usernameLabel {
+    transform: translateX(-20px);
+    opacity: 1;
+  }
+  
+  #inputField:focus ~ .userIcon,
+  #inputField:valid ~ .userIcon {
+    transform: translateX(-20px);
+    opacity: 1;
+  }
+
+  #inputField:focus ~ .userIcon2,
+  #inputField:valid ~ .userIcon2 {
+    transform: translateX(-20px);
+    opacity: 1;
+  }
+  
+  #inputField:focus,
+  #inputField:valid {
+    background-color: #f3f3f3;
+    border: 1px solid rgb(255, 85, 66);
+    transition-duration: .3s;
+  }
+
+  .container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .register{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #ae0a09;
+  }
+  

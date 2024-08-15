@@ -46,3 +46,60 @@
   background-color: #ae0a09;
   color: white;
 }
+
+.desktopContainer{
+  width: 65%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 40px;
+  margin-top: 20px;
+  display: none;
+  align-items: center;
+}
+
+.deskText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  width: 50%;
+}
+
+.deskText div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktopContainer img{
+  width: 50%;
+}
+
+@media screen and (min-width: 767px){
+  .container{
+      display: none;
+  }
+  .desktopContainer{
+      display: flex;
+  }
+  .code{
+    width: 100%;
+  }
+  .sendBTN{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1285px){
+  .sideBar{
+      right: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1140px){
+  .desktopContainer{
+      left: 5px;
+  }
+}
