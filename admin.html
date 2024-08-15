@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/fest.css" />
     <link rel="stylesheet" href="./style/Wallet.css" />
     <link rel="stylesheet" href="./style/chat.css" />
+    <link rel="stylesheet" href="./style/phoneSideBar.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -17,7 +18,7 @@
       <img class="BGI" src="./img/topBG.jpg" alt="gym" />
       <img class="BGI gg" src="./img/topBG2.jpg" alt="gym" />
       <div class="menu">
-        <button class="menuBtn">
+        <button id="MenuBTN" class="menuBtn">
           <i class="bx bx-menu-alt-right"></i>
         </button>
         <span class="menuTitle">ارتباط با ادمین</span>
@@ -28,6 +29,46 @@
             ><i class="bx bxs-home"></i
           ></a>
         </button>
+      </div>
+    </div>
+    <div class="phoneSideBar">
+      <div class="sideBarContainer">
+        <div class="logoPanel">
+          <img class="logoSide" src="./img/logoside.png" alt="" />
+          <button class="closeBTN"><img src="./img/close.png" alt="" /></button>
+        </div>
+        <div class="sideSeprator"></div>
+        <div class="sideButtons">
+          <button>
+            <a href="./index.html"><i class="bx bx-home"></i>خانه</a>
+          </button>
+          <button>
+            <a href="./profile.html"><i class="bx bx-user"></i>پروفایل</a>
+          </button>
+          <button>
+            <a href="./profile.html"><i class="bx bx-star"></i>امتیاز ها</a>
+          </button>
+          <button>
+            <a href="./wallet.html"><i class="bx bx-wallet"></i>کیف پول</a>
+          </button>
+          <button>
+            <a href="./address.html"><i class="bx bx-map"></i>آدرس ها</a>
+          </button>
+          <button>
+            <a href="./phones.html"
+              ><i class="bx bx-phone bx-flip-horizontal"></i>تلفن ها</a
+            >
+          </button>
+          <button>
+            <a href="./fest.html"><i class="bx bx-gift"></i>جشنواره ها</a>
+          </button>
+          <button>
+            <a href="./invite.html"
+              ><i class="bx bx-envelope"></i>دعوت از دوستان</a
+            >
+          </button>
+        </div>
+        <img class="sideFooter" src="./img/sideFooter.png" alt="" />
       </div>
     </div>
     <div class="better"></div>
@@ -62,4 +103,6 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/send.js"></script>
   </body>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/main.js"></script>
 </html>
