@@ -1,0 +1,98 @@
+.phoneSideBar{
+    position: absolute;
+    top: 0;
+    right: -500px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.49);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(0.8px);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    transition: all 250ms ease-in-out;
+}
+
+.logoSide{
+    width: 70%;
+}
+
+.logoPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.closeBTN{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    margin-right: 30px;
+}
+
+.closeBTN img{
+    width: 160%;
+}
+
+.sideBarContainer{
+    width: 80%;
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideSeprator{
+    width: 100%;
+    height: 2px;
+    background: rgb(215,64,64);
+    background: radial-gradient(circle, rgba(215,64,64,1) 0%, rgba(255,255,255,1) 100%);
+    margin-top: 15px;
+}
+
+.sideButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.sideButtons button{
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sideButtons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: rgb(28, 28, 28) !important;
+}
+
+.sideFooter{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+}
+
+.sideButtons a i{
+    margin-bottom: 4px;
+}
+
+@media screen and (min-width: 767px){
+    .phoneSideBar{
+        display: none;
+    }
+}
