@@ -8,6 +8,10 @@
     font-family: "shabnam",sans-serif;
 }
 
+a{
+  color: white !important;
+}
+
 body{
   overflow-x: hidden;
   scrollbar-width: 0;
@@ -91,6 +95,7 @@ body{
   background-color: #ffffff;
   top: 230px;
   border-radius: 15px;
+  right: 0;
 }
 
 .topIMG{
